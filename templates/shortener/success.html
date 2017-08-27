@@ -1,0 +1,84 @@
+<head xmlns="http://www.w3.org/1999/html">
+
+    <TITLE>Url</TITLE>
+       <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lemonada|Chewy|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+<style type="text/css">
+     #top{
+         background-image: url("https://inkientao.vn/wp-content/uploads/2013/09/cropped-orig_4533.png");
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 100px;
+     }
+     #box{
+         background-color: white;
+         border: 2px solid;
+         border-color: black;
+         height: 190px;
+         width: 1000px;
+         margin-top: 150px ;
+         margin-left: 220px;
+     }
+    #text1{
+        font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+        color: black;
+        text-align: center;
+
+    }
+      #text2{
+          padding-top: 20px;
+          text-align: center;
+        font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+
+    }
+    #home{
+       padding-top: 2px;
+        font-family: 'Orbitron', sans-serif;
+
+        padding-left: 24px;
+        font-size: 20px;
+    }
+    a:hover{
+        background-color:cornsilk;
+    }
+    #footer{
+        margin-top: 260px;
+        margin-left: 550px;
+        color: black;
+        font-family: 'Orbitron',sans-serif;
+    }
+</style>
+
+
+<body id="top">
+
+<div id="home"><a href="/" style="color: white;">Home</a></div>
+<div id="box">
+
+
+<div id="text1">
+      <strong> {{ object.Url }}</strong>
+</div>
+<div id="text2">
+    <strong>  <a href="{{ object.small_url }}" >{{ object.small_url }}</a></strong>
+</div>
+
+
+</div>
+
+<div id="footer">
+
+    <STRONG>
+        <em>    LINK SUCCESFULLY CREATED !</em>
+    </STRONG>
+
+</div>
+</body>
